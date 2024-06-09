@@ -1,0 +1,13 @@
+# 28 - Faça a leitura de três valores e apresente como resultado a soma dos quadrados dos três valores lidos
+
+n1 = float(input('Informe o primeiro valor: '))
+n2 = float(input('Informe o segundo valor: '))
+n3 = float(input('Informe o terceiro valor: '))
+
+q1 = n1 * n1
+q2 = n2 * n2
+q3 = n3 * n3
+
+print(f'O valor quadrado do primeiro numero é: {q1}')
+print(f'O valor quadrado do segundo numero é: {q2}')
+print(f'O valor quadrado do terceiro numero é: {q3}')
